@@ -2,6 +2,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import SkinAnalysisTool from "@/components/SkinAnalysisTool";
 import SignUpForm from "@/components/SignUpForm";
 import Footer from "@/components/Footer";
 
@@ -95,6 +96,7 @@ const Index = () => {
           </div>
         </div>
         <Features />
+        <SkinAnalysisTool />
         <SignUpForm />
       </main>
       <Footer />
