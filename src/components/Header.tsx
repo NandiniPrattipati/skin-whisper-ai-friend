@@ -29,11 +29,11 @@ const Header = () => {
         </nav>
         
         <div className="flex items-center gap-2">
-          <Button variant="outline" size="sm">
-            Log In
+          <Button variant="outline" size="sm" asChild>
+            <Link to="/login">Log In</Link>
           </Button>
-          <Button size="sm" className="bg-primary hover:bg-primary/90">
-            Sign Up
+          <Button size="sm" className="bg-primary hover:bg-primary/90" asChild>
+            <Link to="/login">Sign Up</Link>
           </Button>
         </div>
       </div>
