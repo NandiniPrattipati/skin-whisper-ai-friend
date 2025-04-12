@@ -28,7 +28,7 @@ const SkinAnalysisTool = () => {
   };
 
   return (
-    <section className="w-full py-12 md:py-20 bg-white">
+    <section id="skin-analysis-tool" className="w-full py-12 md:py-20 bg-white">
       <div className="container px-4 md:px-6 mx-auto max-w-4xl">
         <div className="mb-10 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Skin Health Analysis Tool</h2>
